@@ -26,14 +26,3 @@ app.get('/comments/:id', function(req, res){
 app.listen(3000, function(){
     console.log('Server is running on port 3000');
 });
-
-// run the server
-// node comments.js
-// open a web browser and go to http://localhost:3000
-// you should see "Hello World"
-// go to http://localhost:3000/comments
-// you should see "This is the comments page"
-// go to http://localhost:3000/comments/new
-// you should see "This is the new comments page"
-// go to http://localhost:3000/comments/123
-// you should see "This is the comments page for comment id: 123"
